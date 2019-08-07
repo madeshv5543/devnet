@@ -1,0 +1,14 @@
+{
+  "name": "obyte-devnet-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "obyte-hub": "git+https://github.com/byteball/obyte-hub.git"
+  }
+}

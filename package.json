@@ -1,0 +1,30 @@
+{
+  "name": "obyte-devnet",
+  "version": "1.0.0",
+  "description": "Devnet for Obyte",
+  "main": "index.js",
+  "dependencies": {
+    "obyte-devnet-hub": "file:hub",
+    "obyte-devnet-witness": "file:witness"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "init": "bin/init.sh",
+    "genesis": "npm --prefix witness run genesis",
+    "blackbytes": "npm --prefix witness run blackbytes",
+    "witness": "npm --prefix witness start",
+    "witness2":"npm --prefix witness2 start",
+    "hub": "npm --prefix hub start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmiklos/obyte-devnet.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmiklos/obyte-devnet/issues"
+  },
+  "homepage": "https://github.com/pmiklos/obyte-devnet#readme"
+}
